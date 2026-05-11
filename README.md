@@ -2,14 +2,6 @@ A personal design system built from the ground up for my UX portfolio. It docume
 
 ---
 
-## Overview
-
-This design system was created to bring consistency and intentionality to my portfolio work. Rather than making ad-hoc design decisions page by page, I extracted and formalized the patterns that were already emerging across my projects — color usage, typography pairing, component behavior, and spacing — into a single referenceable system.
-
-The token file is formatted for direct import into **Tokens Studio for Figma**, making it ready for design handoff and future development.
-
----
-
 ## What's Included
 
 | File | Description |
@@ -121,10 +113,7 @@ Yellow appears in the footer on every single page of the portfolio. It creates a
 
 ## About
 
-**Faustina Koduah** is a UX Designer and Motion Graphics specialist based in Virginia, currently studying Business Information Systems at Virginia Commonwealth University. Previous Product Design Intern at CoStar Group.
+**Faustina Koduah** is a UX Designer and Motion Graphics specialist based in Virginia, recent graduate from at Virginia Commonwealth University studied Business Information Systems. Previous Product Design Intern at CoStar Group.
 
-[Portfolio](https://faustina.design) · [LinkedIn](https://linkedin.com/in/faustinakoduah)
+[LinkedIn](https://linkedin.com/in/faustinakoduah)
 
----
-
-*Design system documented and tokenized in 2026.*
