@@ -1,0 +1,597 @@
+{
+  "global": {
+    "color": {
+      "brand": {
+        "yellow": {
+          "value": "#F5D98B",
+          "type": "color",
+          "description": "Primary brand color. Used for logo accent, footer background, and CTAs."
+        },
+        "yellow-dark": {
+          "value": "#E8C050",
+          "type": "color",
+          "description": "Darker yellow for borders on brand elements and hover states."
+        },
+        "yellow-footer": {
+          "value": "#FAE9A0",
+          "type": "color",
+          "description": "Slightly lighter yellow used specifically for footer background across all pages."
+        }
+      },
+      "interactive": {
+        "blue": {
+          "value": "#3B6BC4",
+          "type": "color",
+          "description": "Primary interactive color. Active nav links, buttons, card footers (professional projects)."
+        },
+        "blue-light": {
+          "value": "#6B9DE8",
+          "type": "color",
+          "description": "Lighter blue for hover states and secondary interactive elements."
+        },
+        "blue-dark": {
+          "value": "#1A3F8F",
+          "type": "color",
+          "description": "Darker blue for pressed states or high-contrast text on blue backgrounds."
+        }
+      },
+      "accent": {
+        "pink": {
+          "value": "#F4A7C3",
+          "type": "color",
+          "description": "Creative/TuneFuse accent. Used for project card footers, section backgrounds on creative case studies."
+        },
+        "pink-light": {
+          "value": "#FADADF",
+          "type": "color",
+          "description": "Light pink for large background sections in creative case studies."
+        },
+        "pink-mid": {
+          "value": "#E97FB0",
+          "type": "color",
+          "description": "Mid-tone pink for card footer on TuneFuse and similar creative projects."
+        },
+        "lavender": {
+          "value": "#A8A0D8",
+          "type": "color",
+          "description": "Professional/CoStar accent. Used for info card borders and professional section highlights."
+        },
+        "lavender-light": {
+          "value": "#D4CFFB",
+          "type": "color",
+          "description": "Light lavender for section backgrounds in professional case studies."
+        }
+      },
+      "neutral": {
+        "black": {
+          "value": "#111111",
+          "type": "color",
+          "description": "Near-black used for primary text, logo wordmark, and dark backgrounds."
+        },
+        "dark": {
+          "value": "#222222",
+          "type": "color",
+          "description": "Secondary dark for headings and strong UI text."
+        },
+        "mid": {
+          "value": "#666666",
+          "type": "color",
+          "description": "Mid-gray for secondary body text and metadata."
+        },
+        "light": {
+          "value": "#999999",
+          "type": "color",
+          "description": "Light gray for captions, copyright, and placeholder text."
+        },
+        "white": {
+          "value": "#FFFFFF",
+          "type": "color",
+          "description": "White for page backgrounds and card surfaces."
+        },
+        "surface": {
+          "value": "#F7F6F2",
+          "type": "color",
+          "description": "Off-white warm surface for component backgrounds and page sections."
+        }
+      }
+    },
+    "typography": {
+      "fontFamily": {
+        "display": {
+          "value": "Playfair Display",
+          "type": "fontFamilies",
+          "description": "Display font for name, hero headline, and italic tagline."
+        },
+        "body": {
+          "value": "DM Sans",
+          "type": "fontFamilies",
+          "description": "Body font for all UI text, nav, buttons, and content."
+        }
+      },
+      "fontWeight": {
+        "regular": {
+          "value": "400",
+          "type": "fontWeights"
+        },
+        "medium": {
+          "value": "500",
+          "type": "fontWeights"
+        },
+        "bold": {
+          "value": "700",
+          "type": "fontWeights"
+        }
+      },
+      "fontSize": {
+        "xs": {
+          "value": "10",
+          "type": "fontSizes",
+          "description": "Copyright, micro labels"
+        },
+        "sm": {
+          "value": "11",
+          "type": "fontSizes",
+          "description": "Captions, nav links, card metadata"
+        },
+        "base": {
+          "value": "13",
+          "type": "fontSizes",
+          "description": "Body text, descriptions"
+        },
+        "md": {
+          "value": "14",
+          "type": "fontSizes",
+          "description": "Secondary body, card descriptions"
+        },
+        "lg": {
+          "value": "16",
+          "type": "fontSizes",
+          "description": "Primary body text, card titles"
+        },
+        "xl": {
+          "value": "20",
+          "type": "fontSizes",
+          "description": "H2 section headings"
+        },
+        "2xl": {
+          "value": "28",
+          "type": "fontSizes",
+          "description": "H1 page headings"
+        },
+        "3xl": {
+          "value": "36",
+          "type": "fontSizes",
+          "description": "Hero name display"
+        },
+        "display": {
+          "value": "40",
+          "type": "fontSizes",
+          "description": "Max hero display size"
+        }
+      },
+      "lineHeight": {
+        "tight": {
+          "value": "1.2",
+          "type": "lineHeights",
+          "description": "Display headlines"
+        },
+        "normal": {
+          "value": "1.5",
+          "type": "lineHeights",
+          "description": "UI text and labels"
+        },
+        "relaxed": {
+          "value": "1.7",
+          "type": "lineHeights",
+          "description": "Body paragraphs and descriptions"
+        }
+      },
+      "letterSpacing": {
+        "normal": {
+          "value": "0",
+          "type": "letterSpacing"
+        },
+        "wide": {
+          "value": "0.08em",
+          "type": "letterSpacing",
+          "description": "Nav links and section labels"
+        },
+        "wider": {
+          "value": "0.15em",
+          "type": "letterSpacing",
+          "description": "Uppercase micro labels"
+        }
+      }
+    },
+    "spacing": {
+      "xs": {
+        "value": "4",
+        "type": "spacing",
+        "description": "Icon gaps, tight padding"
+      },
+      "sm": {
+        "value": "8",
+        "type": "spacing",
+        "description": "Inner component gaps"
+      },
+      "md": {
+        "value": "16",
+        "type": "spacing",
+        "description": "Card padding, nav gaps"
+      },
+      "lg": {
+        "value": "24",
+        "type": "spacing",
+        "description": "Section internal spacing, gutters"
+      },
+      "xl": {
+        "value": "48",
+        "type": "spacing",
+        "description": "Between page sections"
+      },
+      "2xl": {
+        "value": "80",
+        "type": "spacing",
+        "description": "Hero and major section breaks"
+      }
+    },
+    "borderRadius": {
+      "sm": {
+        "value": "4",
+        "type": "borderRadius",
+        "description": "Tags, pills, highlight labels"
+      },
+      "md": {
+        "value": "8",
+        "type": "borderRadius",
+        "description": "Buttons, input fields"
+      },
+      "lg": {
+        "value": "12",
+        "type": "borderRadius",
+        "description": "Cards, section containers"
+      },
+      "full": {
+        "value": "9999",
+        "type": "borderRadius",
+        "description": "Avatar circles, pill badges"
+      }
+    },
+    "borderWidth": {
+      "thin": {
+        "value": "0.5",
+        "type": "borderWidth",
+        "description": "Default subtle borders on cards and dividers"
+      },
+      "base": {
+        "value": "1",
+        "type": "borderWidth",
+        "description": "Standard borders"
+      },
+      "accent": {
+        "value": "1.5",
+        "type": "borderWidth",
+        "description": "Info card accent borders (blue, yellow)"
+      },
+      "featured": {
+        "value": "2",
+        "type": "borderWidth",
+        "description": "Featured/highlighted card borders"
+      }
+    },
+    "opacity": {
+      "overlay-light": {
+        "value": "0.08",
+        "type": "opacity"
+      },
+      "muted": {
+        "value": "0.5",
+        "type": "opacity"
+      },
+      "subtle": {
+        "value": "0.8",
+        "type": "opacity",
+        "description": "Overlay text on colored card footers"
+      }
+    }
+  },
+  "semantic": {
+    "text": {
+      "primary": {
+        "value": "{global.color.neutral.black}",
+        "type": "color"
+      },
+      "secondary": {
+        "value": "{global.color.neutral.mid}",
+        "type": "color"
+      },
+      "muted": {
+        "value": "{global.color.neutral.light}",
+        "type": "color"
+      },
+      "interactive": {
+        "value": "{global.color.interactive.blue}",
+        "type": "color"
+      },
+      "on-brand": {
+        "value": "{global.color.neutral.black}",
+        "type": "color",
+        "description": "Text placed on brand yellow backgrounds"
+      },
+      "on-dark": {
+        "value": "{global.color.neutral.white}",
+        "type": "color",
+        "description": "Text placed on dark/black backgrounds"
+      },
+      "tagline": {
+        "value": "{global.color.interactive.blue}",
+        "type": "color",
+        "description": "Italic tagline color: i design software with emotion."
+      }
+    },
+    "background": {
+      "page": {
+        "value": "{global.color.neutral.white}",
+        "type": "color"
+      },
+      "surface": {
+        "value": "{global.color.neutral.surface}",
+        "type": "color"
+      },
+      "footer": {
+        "value": "{global.color.brand.yellow-footer}",
+        "type": "color"
+      },
+      "nav-dark": {
+        "value": "{global.color.neutral.black}",
+        "type": "color",
+        "description": "Used on dark nav bar variant"
+      },
+      "card-professional": {
+        "value": "{global.color.interactive.blue}",
+        "type": "color",
+        "description": "Project card footer — professional projects (CoStar)"
+      },
+      "card-creative": {
+        "value": "{global.color.accent.pink-mid}",
+        "type": "color",
+        "description": "Project card footer — creative projects (TuneFuse)"
+      },
+      "section-creative": {
+        "value": "{global.color.accent.pink-light}",
+        "type": "color",
+        "description": "Large section background for creative case studies"
+      },
+      "section-professional": {
+        "value": "{global.color.accent.lavender-light}",
+        "type": "color",
+        "description": "Large section background for professional case studies"
+      }
+    },
+    "border": {
+      "default": {
+        "value": "#EEEEEE",
+        "type": "color"
+      },
+      "accent-blue": {
+        "value": "{global.color.interactive.blue}",
+        "type": "color"
+      },
+      "accent-yellow": {
+        "value": "{global.color.brand.yellow-dark}",
+        "type": "color"
+      }
+    },
+    "highlight": {
+      "teaching": {
+        "value": "{global.color.brand.yellow}",
+        "type": "color",
+        "description": "Playground label — Teaching Kids STEM"
+      },
+      "motion": {
+        "value": "{global.color.accent.pink-light}",
+        "type": "color",
+        "description": "Playground label — Exploring Motion Graphics"
+      },
+      "photography": {
+        "value": "{global.color.accent.lavender-light}",
+        "type": "color",
+        "description": "Playground label — Photography Enthusiast"
+      }
+    }
+  },
+  "components": {
+    "nav": {
+      "background": {
+        "value": "{global.color.neutral.white}",
+        "type": "color"
+      },
+      "link-default": {
+        "value": "{global.color.neutral.mid}",
+        "type": "color"
+      },
+      "link-active": {
+        "value": "{global.color.interactive.blue}",
+        "type": "color"
+      },
+      "link-weight-active": {
+        "value": "{global.typography.fontWeight.medium}",
+        "type": "fontWeights"
+      },
+      "font-size": {
+        "value": "{global.typography.fontSize.sm}",
+        "type": "fontSizes"
+      },
+      "letter-spacing": {
+        "value": "{global.typography.letterSpacing.wide}",
+        "type": "letterSpacing"
+      }
+    },
+    "button": {
+      "primary": {
+        "background": {
+          "value": "{global.color.neutral.black}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{global.color.neutral.white}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{global.color.neutral.black}",
+          "type": "color"
+        }
+      },
+      "secondary": {
+        "background": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "text": {
+          "value": "{global.color.neutral.black}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{global.color.neutral.black}",
+          "type": "color"
+        }
+      },
+      "cta": {
+        "background": {
+          "value": "{global.color.brand.yellow}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{global.color.neutral.black}",
+          "type": "color"
+        },
+        "border": {
+          "value": "{global.color.brand.yellow-dark}",
+          "type": "color"
+        }
+      },
+      "link": {
+        "background": {
+          "value": "transparent",
+          "type": "color"
+        },
+        "text": {
+          "value": "{global.color.interactive.blue}",
+          "type": "color"
+        },
+        "border": {
+          "value": "transparent",
+          "type": "color"
+        }
+      },
+      "border-radius": {
+        "value": "{global.borderRadius.md}",
+        "type": "borderRadius"
+      },
+      "font-size": {
+        "value": "{global.typography.fontSize.sm}",
+        "type": "fontSizes"
+      },
+      "font-weight": {
+        "value": "{global.typography.fontWeight.medium}",
+        "type": "fontWeights"
+      },
+      "padding-x": {
+        "value": "{global.spacing.md}",
+        "type": "spacing"
+      },
+      "padding-y": {
+        "value": "{global.spacing.sm}",
+        "type": "spacing"
+      }
+    },
+    "card": {
+      "background": {
+        "value": "{global.color.neutral.white}",
+        "type": "color"
+      },
+      "border": {
+        "value": "{semantic.border.default}",
+        "type": "color"
+      },
+      "border-radius": {
+        "value": "{global.borderRadius.lg}",
+        "type": "borderRadius"
+      },
+      "padding": {
+        "value": "{global.spacing.md}",
+        "type": "spacing"
+      }
+    },
+    "footer": {
+      "background": {
+        "value": "{semantic.background.footer}",
+        "type": "color"
+      },
+      "text": {
+        "value": "{global.color.neutral.dark}",
+        "type": "color"
+      },
+      "text-muted": {
+        "value": "{global.color.neutral.mid}",
+        "type": "color"
+      },
+      "font-size": {
+        "value": "{global.typography.fontSize.sm}",
+        "type": "fontSizes"
+      }
+    },
+    "highlightLabel": {
+      "border-radius": {
+        "value": "{global.borderRadius.sm}",
+        "type": "borderRadius"
+      },
+      "font-size": {
+        "value": "{global.typography.fontSize.lg}",
+        "type": "fontSizes"
+      },
+      "font-weight": {
+        "value": "{global.typography.fontWeight.bold}",
+        "type": "fontWeights"
+      },
+      "padding-x": {
+        "value": "14",
+        "type": "spacing"
+      },
+      "padding-y": {
+        "value": "{global.spacing.xs}",
+        "type": "spacing"
+      }
+    },
+    "infoCard": {
+      "border-width": {
+        "value": "{global.borderWidth.accent}",
+        "type": "borderWidth"
+      },
+      "border-radius": {
+        "value": "{global.borderRadius.lg}",
+        "type": "borderRadius"
+      },
+      "padding": {
+        "value": "{global.spacing.md}",
+        "type": "spacing"
+      },
+      "title-size": {
+        "value": "{global.typography.fontSize.lg}",
+        "type": "fontSizes"
+      },
+      "title-weight": {
+        "value": "{global.typography.fontWeight.bold}",
+        "type": "fontWeights"
+      },
+      "body-size": {
+        "value": "{global.typography.fontSize.md}",
+        "type": "fontSizes"
+      },
+      "body-color": {
+        "value": "{global.color.neutral.mid}",
+        "type": "color"
+      }
+    }
+  }
+}
